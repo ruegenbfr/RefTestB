@@ -1,0 +1,12 @@
+name: Greetings
+
+on: workflow_dispatch
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    # permissions:
+    #  issues: write
+    #  pull-requests: write
+    steps:
+    - run: echo "Many greetins from github actions"
